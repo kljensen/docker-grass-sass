@@ -11,7 +11,7 @@ CSS Preprocessor](https://github.com/connorskees/grass) at
 Run
 
 ```
-docker pull ghcr.io/kljensen/docker-grass-sass:release
+docker pull ghcr.io/kljensen/docker-grass-sass:latest
 ```
 
 ## Why
