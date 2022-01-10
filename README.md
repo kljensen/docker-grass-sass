@@ -6,7 +6,7 @@ CSS Preprocessor](https://github.com/connorskees/grass) at
 [Dart-sass](https://github.com/sass/dart-sass), but written in
 [Rust](https://www.rust-lang.org/).
 
-## Using
+## How to use it
 
 Run
 
@@ -34,7 +34,7 @@ something like this to turn it into a CSS file
 docker run -v "$(pwd)":/app ghcr.io/kljensen/docker-grass-sass:latest /app/foo.sass
 ```
 
-## Why
+## Why does this exist?
 
 I failed to build a statically-linked version of
 [Dart-sass](https://github.com/sass/dart-sass) on
