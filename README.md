@@ -14,6 +14,19 @@ Run
 docker pull ghcr.io/kljensen/docker-grass-sass:latest
 ```
 
+to pull down the image. Of course, you should use your preferred tag instead of
+just `latest`. See the
+[packages](https://github.com/kljensen/docker-grass-sass/pkgs/container/docker-grass-sass)
+for available tags.
+
+Then run
+
+```
+docker run ghcr.io/kljensen/docker-grass-sass:latest
+```
+
+to run the `grass` binary..
+
 ## Why
 
 I failed to build a statically-linked version of
