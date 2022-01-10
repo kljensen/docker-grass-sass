@@ -27,6 +27,13 @@ docker run ghcr.io/kljensen/docker-grass-sass:latest
 
 to run the `grass` binary..
 
+If you have a file like `foo.sass` in your current directory, you'd run
+something like this to turn it into a CSS file
+
+```
+docker run -v "$(pwd)":/app ghcr.io/kljensen/docker-grass-sass:latest /app/foo.sass
+```
+
 ## Why
 
 I failed to build a statically-linked version of
